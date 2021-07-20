@@ -5,7 +5,7 @@ import BeerList from "../src/components/BeerList";
 import Home from "../src/components/Home";
 import Header from "../src/components/Header";
 import Contacts from "../src/components/Contacts";
-import About from "../src/components/About";
+// import About from "../src/components/About";
 
 function Routes() {
   return (

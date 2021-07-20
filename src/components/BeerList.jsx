@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { DataGrid } from "@material-ui/data-grid";
 
 import { getBeers } from "../services/beerService";
-import SpringModal from "./modal";
+import SpringModal from "../components/Modal";
 
 function BeerList() {
   const [beerList, setBeerList] = useState([]);

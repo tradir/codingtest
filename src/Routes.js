@@ -16,7 +16,7 @@ function Routes() {
           <Route path="/" exact component={Home} />
           <Route path="/Beerlist" exact component={BeerList} />
           <Route path="/Contacts" exact component={Contacts} />
-          <Route path="/About" exact component={About} />
+          {/* <Route path="/About" exact component={About} /> */}
           <Route path="*">
             <Redirect to="/" />
           </Route>

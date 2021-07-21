@@ -1,22 +1,20 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 
-import BeerList from "../src/components/BeerList";
-import Home from "../src/components/Home";
-import Header from "../src/components/Header";
-import Contacts from "../src/components/Contacts";
-// import About from "../src/components/About";
+import BeerList from "./components/BeerList";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Contacts from "./components/Contacts";
 
-function Routes() {
+function App() {
   return (
     <React.Fragment>
       <Header />
       <main>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/Beerlist" exact component={BeerList} />
-          <Route path="/Contacts" exact component={Contacts} />
-          {/* <Route path="/About" exact component={About} /> */}
+          <Route path="/beerlist" exact component={BeerList} />
+          <Route path="/contacts" exact component={Contacts} />
           <Route path="*">
             <Redirect to="/" />
           </Route>
@@ -26,4 +24,4 @@ function Routes() {
   );
 }
 
-export default Routes;
+export default App;

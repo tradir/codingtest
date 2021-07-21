@@ -1,25 +1,22 @@
 import React, { useState } from "react";
-import { CancelBtn } from "../components/Styled-components";
+import { CancelBtn, ShowImageBtn } from "../components/Styled-components";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import { useSpring, animated } from "react-spring";
-import BeerList from "./BeerList";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    cursor: "pointer",
     color: "#F3F4ED",
   },
 
   // theme.palette.background.paper
   paper: {
-    backgroundColor: "#536162",
-    // border: "1px solid #000",
+    backgroundColor: "#787a91",
     borderRadius: "20px",
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
@@ -59,13 +56,17 @@ Fade.propTypes = {
   onExited: PropTypes.func,
 };
 
-export default function SpringModal({ isOpen, onRowSelected, data }) {
+export default function SpringModal({ isOpen, onRowSelected, selectedData }) {
   const classes = useStyles();
   const [open, setOpen] = useState(isOpen);
 
   const handleClose = () => {
     setOpen(false);
     onRowSelected(false);
+  };
+
+  const handleImage = () => {
+    setOpen(true);
   };
 
   return (
@@ -76,6 +77,7 @@ export default function SpringModal({ isOpen, onRowSelected, data }) {
         className={classes.modal}
         open={open}
         onClose={handleClose}
+        onOpenImage={handleImage}
         closeAfterTransition
         BackdropComponent={Backdrop}
         BackdropProps={{
@@ -84,20 +86,36 @@ export default function SpringModal({ isOpen, onRowSelected, data }) {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="spring-modal-title">Name:</h2>
-            <p id="spring-modal-description">Description:</p>
-            <p id="spring-modal-description">Tagline:</p>
-            <p id="spring-modal-description">Brewed Year:</p>
-            <p id="spring-modal-description">Fits best with:</p>
-            {/* food pairing*/}
-            <p id="spring-modal-description">Tips from brewers: {BeerList}</p>
-            {/* brewers tip*/}
-            <p id="spring-modal-description">Contributors:</p>
-            <p id="spring-modal-description">ABV:</p>
-            <img src="" alt="Beer Can or Bottle" />
-            <CancelBtn>
-              <button>Cancel</button>
-            </CancelBtn>
+            <h1 style={{ textAlign: "center" }}>Information</h1>
+            <h1 id="spring-modal-title">
+              Name: <i>{selectedData.name}</i>
+            </h1>
+            <p id="spring-modal-description">
+              <strong>Description:</strong> <i>{selectedData.description}</i>
+            </p>
+            <p id="spring-modal-description">
+              <strong>Tagline:</strong> <i>{selectedData.tagline}</i>
+            </p>
+            <p id="spring-modal-description">
+              <strong>Brewed Year</strong>: <i>{selectedData.first_brewed}</i>
+            </p>
+            <p id="spring-modal-description">
+              <strong>Fits best with:</strong>{" "}
+              <i>{selectedData.food_pairing}</i>
+            </p>
+            <p id="spring-modal-description">
+              <strong>Tips from brewers:</strong>{" "}
+              <i>{selectedData.brewers_tips}</i>
+            </p>
+            <p id="spring-modal-description">
+              <strong>Contributors:</strong>{" "}
+              <i>{selectedData.contributed_by}</i>
+            </p>
+            <p id="spring-modal-description">
+              <strong>ABV:</strong> <i>{selectedData.abv + "%"}</i>
+            </p>
+            <CancelBtn onClick={handleClose}>Cancel</CancelBtn>
+            <ShowImageBtn onClick={handleImage}>Image</ShowImageBtn>
           </div>
         </Fade>
       </Modal>

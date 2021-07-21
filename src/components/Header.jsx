@@ -22,11 +22,6 @@ function Header() {
           <p>Contacts</p>
         </Span>
       </Link>
-      <Link to="/about" style={styles}>
-        <Span>
-          <p>About</p>
-        </Span>
-      </Link>
     </HeaderWrapper>
   );
 }

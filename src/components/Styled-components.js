@@ -5,7 +5,7 @@ export const HeaderWrapper = styled.div`
   padding: 5px;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 6rem;
   background-color: #eeeeee;
   color: #141e61;
@@ -26,46 +26,86 @@ export const Span = styled.span`
 `;
 
 export const BeerLinkText = styled.button`
-  margin: 15px;
-  padding: 15px;
-  color: black;
+  margin-bottom: 5px;
+  padding: 10px;
+  color: #eeeeee;
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  display: inline-block;
+  background-color: #787a91;
+  border: 2px solid #141e61;
 `;
 
 export const ContactList = styled.div`
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 300px;
-  background-color: lightgray;
-  color: black;
-  margin: 10px;
-  padding: 5px 0 0 10px;
+  width: 30vw;
+  height: 30vh;
+  background-color: #eeeeee;
+  color: #141e61;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
   border-radius: 20px;
+  text-align: center;
+  border: 3px solid #141e61;
   & .icon {
     margin: 5px;
     cursor: pointer;
     &:hover {
+      background-color: gray;
+      border-radius: 50px;
+      height: 60px;
+      width: 60px;
+      transition: 1s;
     }
   }
 `;
 
 export const CancelBtn = styled.button`
-  padding: 5px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: 25vh;
   color: white;
-  margin: 5px;
-  background-color: gray;
-  border: none;
+  background-color: #141e61;
+  border: 2px solid #eeeeee;
   border-radius: 10px;
+  cursor: pointer;
 `;
 
 export const BackgroundColor = styled.div`
   background-color: #787a91;
   margin-top: 0;
-  width: 100vw;
+  width: 94.5vw;
   height: 100vh;
+  padding: 50px;
+`;
+
+export const WelcomeTable = styled.div`
+  background-color: #eeeeee;
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  border-radius: 50px;
+  text-align: center;
+  border: 3px solid #141e61;
+`;
+
+export const ParagraphText = styled.p`
+  color: #141e61;
+  padding: 10px;
+`;
+
+export const ShowImageBtn = styled.button`
+  padding: 15px;
+  margin-left: 5px;
+  margin-top: 15px;
+  color: white;
+  background-color: #141e61;
+  border: 2px solid #eeeeee;
+  border-radius: 10px;
+  cursor: pointer;
 `;
 
 export const ButtonWrapper = styled.div``;

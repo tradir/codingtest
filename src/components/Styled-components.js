@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   position: relative;
-  padding: 5px;
-  top: 0;
+  /* padding: 5px; */
+
   left: 0;
+  margin-top: 0;
   width: 100vw;
-  height: 6rem;
+  height: 7rem;
   background-color: #eeeeee;
   color: #141e61;
   display: flex;
@@ -77,8 +78,8 @@ export const CancelBtn = styled.button`
 export const BackgroundColor = styled.div`
   background-color: #787a91;
   margin-top: 0;
-  width: 94.5vw;
-  height: 100vh;
+  width: 94vw;
+  height: 85vh;
   padding: 50px;
 `;
 

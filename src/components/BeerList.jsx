@@ -93,7 +93,7 @@ function BeerList() {
   };
 
   return (
-    <div style={{ height: 700, width: "100%" }}>
+    <div style={{ height: 700, width: "100vw" }}>
       {rowState && (
         <SpringModal
           isOpen={rowState}

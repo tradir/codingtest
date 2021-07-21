@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BackgroundColor, BeerLinkText } from "./styled-components";
+import { BackgroundColor, BeerLinkText } from "../components/Styled-components";
 
 function Home() {
   const customStyles = {

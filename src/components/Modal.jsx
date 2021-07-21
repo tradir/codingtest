@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { CancelBtn } from "./styled-components";
+import { CancelBtn } from "../components/Styled-components";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import { useSpring, animated } from "react-spring";
-import BeerList from "./beerList";
+import BeerList from "./BeerList";
 
 const useStyles = makeStyles((theme) => ({
   modal: {

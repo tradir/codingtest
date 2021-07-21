@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderWrapper, Span } from "./styled-components";
+import { HeaderWrapper, Span } from "../components/Styled-components";
 import { Link } from "react-router-dom";
 
 function Header() {

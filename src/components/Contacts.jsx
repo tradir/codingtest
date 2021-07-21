@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactList } from "./styled-components";
+import { ContactList } from "../components/Styled-components";
 import EmailIcon from "@material-ui/icons/Email";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import PhoneIcon from "@material-ui/icons/Phone";

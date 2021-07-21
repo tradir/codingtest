@@ -65,8 +65,8 @@ export const ContactList = styled.div`
 
 export const CancelBtn = styled.button`
   padding: 15px;
-  margin-top: 15px;
-  margin-left: 25vh;
+  margin-top: 30px;
+  margin-left: 30vh;
   color: white;
   background-color: #141e61;
   border: 2px solid #eeeeee;
@@ -95,17 +95,6 @@ export const WelcomeTable = styled.div`
 export const ParagraphText = styled.p`
   color: #141e61;
   padding: 10px;
-`;
-
-export const ShowImageBtn = styled.button`
-  padding: 15px;
-  margin-left: 5px;
-  margin-top: 15px;
-  color: white;
-  background-color: #141e61;
-  border: 2px solid #eeeeee;
-  border-radius: 10px;
-  cursor: pointer;
 `;
 
 export const ButtonWrapper = styled.div``;

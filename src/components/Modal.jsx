@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CancelBtn, ShowImageBtn } from "../components/Styled-components";
+import { CancelBtn } from "../components/Styled-components";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
@@ -115,7 +115,6 @@ export default function SpringModal({ isOpen, onRowSelected, selectedData }) {
               <strong>ABV:</strong> <i>{selectedData.abv + "%"}</i>
             </p>
             <CancelBtn onClick={handleClose}>Cancel</CancelBtn>
-            <ShowImageBtn onClick={handleImage}>Image</ShowImageBtn>
           </div>
         </Fade>
       </Modal>

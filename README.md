@@ -1,10 +1,10 @@
 ## FrontEnd Coding Test Template
-안녕하세요,  
-Tradir.io에 지원해 주셔서 감사합니다.🙏
+Hello!  
+Thank you for applying to join us at Tradir.io.🙏
 
-Tradir.io 주니어 프론트엔드 개발자 코딩 테스트 기본 템플릿입니다.  
-해당 repository를 클론 하셔서 아래 명시된 항목들만 완성해 주시면 됩니다.  
-과제에만 집중하실 수 있게 기본적인 세팅은 미리 되어있습니다.
+This is a base template for the Junior Frontend Engineer Coding Test @Tradir.io
+Clone this repository and follow the instructions below!
+The basic structure is already set up so you can go straight to the main tasks.
 
 ### 📣 &nbsp; Instructions
 

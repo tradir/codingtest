@@ -45,7 +45,7 @@ The api returns a list of Beer Objects 🍻.
 
 *Additional features can be added if the tester wishes to display more than the required functionalities
 
-과제 진행 중 추가적인 문의 사항이 있으실 경우, 언제든지 편하게 연락 주시기 바랍니다.&nbsp; 🎉
+🎈🤖&nbsp; 과제 진행 중 추가적인 문의 사항이 있으실 경우, 언제든지 편하게 연락 주시기 바랍니다.&nbsp; 💌🎉
 
 ### ** Do not create a pull request, create a new repository and send the link through email to submit **
 ### ** 과제 제출 시 개인 github에 repository를 생성하시고 메일로 링크 보내주시면 됩니다 **

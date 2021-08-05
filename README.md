@@ -28,7 +28,7 @@ The api returns a list of Beer Objects.
 * Create a filter so that users can filter the beers by ``abv`` range ex)"5-6", "6-7"
   - multiselection should be available
   - The filter is not part of the table. It should be above the table separate from the table component.
-  - Do ``not`` use the library's filtering functionality
+  - ``Do not`` use the library's filtering functionality
 
 #### Optional
 

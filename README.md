@@ -18,8 +18,11 @@ The api returns a list of Beer Objects 🍻.
 
 #### ⚓ &nbsp; Required
 
-* Create a page (/beerlist) with a table for the list of Beers (the material table library should be used https://material-table.com/#/docs/get-started)
-  - when a column header is drag and dropped, the new column order should be stored in redux so that the order is maintained even when a user moves between ``/home`` and ``/beerlist``
+* ``Redirect`` users to ``/home`` when they first arrive
+  - Testers are free to add a bit of personal design 😊
+  - Create a ``link`` to a ``/beerlist`` page on the homepage
+
+* Create a page (/beerlist) with a table for the list of Beers (the material table library ``must`` be used https://material-table.com/#/docs/get-started)
 
 * Create a filter so that users can filter the beers by ``abv`` range ex)"5-6", "6-7"
   - multiselection should be available
@@ -28,9 +31,7 @@ The api returns a list of Beer Objects 🍻.
 
 #### 💡 &nbsp; Optional 
 
-* ``Redirect`` users to ``/home`` when they first arrive
-  - Testers are free to add a bit of personal design 😊
-  - Create a ``link`` to a ``/beerlist`` page on the homepage
+* when a column header is drag and dropped, the new column order should be stored in redux so that the order is maintained even when a user moves between ``/home`` and ``/beerlist``
 
 * When a beer name is clicked on, a modal should appear containing all the info of the selected beer
 

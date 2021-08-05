@@ -42,8 +42,8 @@ The api returns a list of Beer Objects 🍻.
 * Completion of the required functionalities(50%)
 * Code Quality (35%)
 * UI/UX Design (15%)
-
-
+<br />
+<br />
 * Additional features can be added if the tester wishes to display more than the required functionalities
 
 🎈🤖&nbsp; Feel free to contact us anytime if you have additional questions regarding the project &nbsp; 💌🎉

@@ -6,7 +6,7 @@ Tradir.io 주니어 프론트엔드 개발자 코딩 테스트 기본 템플릿�
 해당 repository를 클론 하셔서 아래 명시된 항목들만 완성해 주시면 됩니다.  
 과제에만 집중하실 수 있게 기본적인 세팅은 미리 되어있습니다.
 
-### 📣 Instructions
+### Instructions 📣
 
 Use the following open api to get data for the table: https://api.punkapi.com/v2/beers  
 The api returns a list of Beer Objects.

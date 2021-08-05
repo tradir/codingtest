@@ -45,6 +45,6 @@ The api returns a list of Beer Objects 🍻.
 * Code Quality (35%)
 * UI/UX Design (15%)
 
-🎈🤖&nbsp; Feel free to contact us anytime if you have additional questions regarding the project &nbsp; 💌🎉
+#### 🎈🤖&nbsp; Feel free to contact us anytime if you have additional questions regarding the project &nbsp; 💌🎉
 
 ### Do not create a pull request, create a new repository and send the link through email to submit

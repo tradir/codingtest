@@ -2,8 +2,8 @@
 Hello!  
 Thank you for applying to join us at Tradir.io.🙏
 
-This is a base template for the Junior Frontend Engineer Coding Test @Tradir.io.
-Clone this repository and follow the instructions below!
+This is a base template for the Junior Frontend Engineer Coding Test @Tradir.io <br />
+Clone this repository and follow the instructions below!<br />
 The basic structure is already set up so you can go straight to the main tasks.
 
 ### 📣 &nbsp; Instructions

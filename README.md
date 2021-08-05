@@ -29,7 +29,7 @@ The api returns a list of Beer Objects.
 #### Optional
 
 * ``Redirect`` users to ``/home`` when they first arrive
-  - Testers are free to add a bit of personal design
+  - Testers are free to add a bit of personal design😊
   - Create a ``link`` to a ``/beerlist`` page on the homepage
 
 * When a beer name is clicked on, a modal should appear containing all the info of the selected beer

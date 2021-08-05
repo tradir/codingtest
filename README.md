@@ -1,3 +1,4 @@
+🎈🤖&nbsp; Feel free to contact us anytime if you have additional questions regarding the project &nbsp; 💌🎉
 ## FrontEnd Coding Test Template
 안녕하세요,  
 Tradir.io에 지원해 주셔서 감사합니다.🙏
@@ -44,8 +45,6 @@ The api returns a list of Beer Objects 🍻.
 * UI/UX Design (15%)
 
 *Additional features can be added if the tester wishes to display more than the required functionalities
-
-🎈🤖&nbsp; Feel free to contact us anytime if you have additional questions regarding the project &nbsp; 💌🎉
 
 ### ** Do not create a pull request, create a new repository and send the link through email to submit **
 ### ** 과제 제출 시 개인 github에 repository를 생성하시고 메일로 링크 보내주시면 됩니다 **

@@ -36,8 +36,9 @@ The api returns a list of Beer Objects 🍻.
 * When a beer name is clicked on, a modal should appear containing all the info of the selected beer
 
 * Create a Shopping basket to add and remove beers from  
-  - Shopping basket should be accessible from both ``/home`` and ``/beerlist``
-<br />&nbsp;*&nbsp; Additional features can be added if the tester wishes to display more than the required functionalities
+  - Shopping basket should be accessible from both ``/home`` and ``/beerlist``<br />
+
+&nbsp;*&nbsp; Additional features can be added if the tester wishes to display more than the required functionalities
   
 ### 📝 &nbsp; Grading Standards
 * Completion of the required functionalities(50%)

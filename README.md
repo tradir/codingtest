@@ -37,7 +37,7 @@ The api returns a list of Beer Objects 🍻.
 
 * Create a Shopping basket to add and remove beers from  
   - Shopping basket should be accessible from both ``/home`` and ``/beerlist``
-&nbsp;*&nbsp; Additional features can be added if the tester wishes to display more than the required functionalities
+<br />&nbsp;*&nbsp; Additional features can be added if the tester wishes to display more than the required functionalities
   
 ### 📝 &nbsp; Grading Standards
 * Completion of the required functionalities(50%)

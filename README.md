@@ -11,7 +11,7 @@ Tradir.io 주니어 프론트엔드 개발자 코딩 테스트 기본 템플릿�
 Use the following open api to get data for the table: https://api.punkapi.com/v2/beers  
 The api returns a list of Beer Objects 🍻.
 
-#### Styling
+#### Styling ✨
 
 * Use Styled Components to style your project
 * Ant Design can be used for basic components (https://ant.design/components/overview/)
